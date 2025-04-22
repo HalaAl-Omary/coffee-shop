@@ -32,4 +32,31 @@
       margin-top: 20px;
     }
   }
+  @media (max-width: 1400px) {
+    .Strong-Coffee {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 20px !important;
+      align-items: center; 
+    }
+  
+    .Strong-Coffee-img img,
+    .Strong-Coffee-text {
+      width: 100% !important;
+    }
+  
+    .Strong-Coffee-text {
+      position: static !important;
+      margin: 0 !important;
+      padding: 20px !important;
+      background-color: #f6e1c5 !important;
+      text-align: center;
+      border-radius: 8px;
+    }
+  .Strong-Coffee-section{
+    margin-bottom: 100px !important;
+  }
+  }
+  
+ 
   

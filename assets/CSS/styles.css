@@ -47,7 +47,7 @@ header{
 }
 
 h1{
-    color: rgba(234, 155, 64, 0.86);
+    color: #f6e1c5;
     font-size: 50PX;
     margin: 0;
     font-style: italic;
@@ -125,3 +125,51 @@ footer p{
   line-height: 1.75;
   color: #f6e1c5;
 }
+
+.Strong-Coffee{
+  position: relative;
+}
+.Strong-Coffee-text{
+  position: absolute;
+  top: 85%;
+  left: 170PX;
+  background-color: #f6e1c5;
+  padding: 50px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  width: 1000px;
+  text-align: start;
+}
+.Strong-Coffee-text h6{
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Strong-Coffee-text h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.Strong-Coffee-section{
+  margin-bottom: 400px;
+}
+.Strong-Coffee-text p{
+  font-family: 'Times New Roman', Times, serif;
+}
+.products-drink-sweet p{
+font-family: 'Times New Roman', Times, serif;
+color:rgba(47, 23, 15, 0.9) ;
+}
+.products-drink-sweet h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgba(47, 23, 15, 0.9);
+  background-color: #f6e1c5;
+   padding: 20px 1px;
+
+  }
+  .products-drink-sweet h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
