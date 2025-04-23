@@ -57,6 +57,24 @@
     margin-bottom: 100px !important;
   }
   }
+  @media (max-width: 990px) {
+    header.hero {
+      display: none !important;
+    }
+  
+    nav.navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+  
+    body {
+      padding-top: 80px;
+    }
+  }
   
  
   

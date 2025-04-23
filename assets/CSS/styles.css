@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -50,8 +51,7 @@ h1{
     color: #f6e1c5;
     font-size: 50PX;
     margin: 0;
-    font-style: italic;
-    
+    font-family: "Cinzel", serif;
 }
 .hero {
     padding-bottom: 50px;
@@ -126,6 +126,36 @@ footer p{
   color: #f6e1c5;
 }
 
+.our-promise-section{
+  background-color:  rgba(230, 167, 86, 0.9);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  box-sizing: border-box;
+}
+.our-promise-section .container{
+  background-color: #f6e1c5;
+ padding: 70px;
+  max-width: 1000px;
+  border: 5px solid rgba(230, 167, 86, 0.9);
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
+.our-promise-section h5{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+}
+.our-promise-section h2{
+  font-size: 45px;
+  font-weight: 100;
+}
+.our-promise-section p{
+  font-weight: 300;
+}
 .Strong-Coffee{
   position: relative;
 }
@@ -173,3 +203,86 @@ color:rgba(47, 23, 15, 0.9) ;
     margin-left: 0;
     margin-right: 0;
   }
+
+  .store-section{
+    background-color:  rgba(230, 167, 86, 0.9);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    box-sizing: border-box;
+  }
+  .store-section .container{
+    background-color: #f6e1c5;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 5rem 2rem;
+    margin: 5rem auto;
+    max-width: 1000px;
+    border: 2px solid rgba(230, 167, 86, 0.9);
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+.store-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.Store-section-titlle h5{
+  font-weight: 900;
+  font-size: 15px;
+}
+.Store-section-titlle h2{
+  font-weight: 100;
+  font-size: 50px;
+}
+.store-list li{
+  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+   
+}
+.store-list {
+  list-style-type: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.store-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+.store-list {
+ padding-left: 200px !important;
+ padding-right: 200px;
+ font-style: italic;
+ }
+ .font-color{
+  color: rgba(230, 167, 86, 0.9);
+ }
+ .store-section-street{
+  padding: 3rem;
+ }
+ .store-section-street h3{
+  font-size: 20px;
+  font-weight: 600;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ .store-section-street h4{
+  font-size: 15px;
+ font-weight: 400;
+ }
+ .store-section-call h6{
+  font-size: 15px;
+  font-weight: 400;
+  }
+ .store-section-call h5{
+  font-weight: 300;
+  font-style: italic;
+ }
